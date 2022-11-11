@@ -8,38 +8,37 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <style>
         .r_br{
-            border: 1px solid orchid;
+            border: 1px solid black;
             height: 100%;
         }
-        .r_m{
-            border: 1px solid black;
-        }
         header{
-            height: 60px;
+            height: 70px;
         }
         main{
-            height: 1000px;
+            height: 2000px;
 
         }
         footer{
-            height: 300px;
+            height: 400px;
         }
     </style>
 </head>
 <body>
-    <div class="container-fluid r_br p-0">
-        <header class="r_m " style="background: #7532F9;">a</header>
-        <main class="r_m">
+    <div class="container-fluid fs-1 text-center text-white-50 r_br p-0 ">
+        <header style="background: #7532F9;">header</header>
+        <main >
             <div class="container r_br">
                 <div class="row h-100">
-                    <aside class=" col-3 bg-danger r_left">A</aside>
-                    <section class="col-6 bg-dark">B</section>
-                    <aside class="col-3 bg-secondary r_right">C</aside>
+                    <aside class=" col-3  d-none d-lg-block col-lg-3 bg-danger r_left">aside</aside>
+                    <section class="col-6  col-md-12 col-lg-6 bg-dark">section</section>
+                    <aside class="col-3  d-none d-lg-block col-lg-3 bg-secondary r_right">aside</aside>
                 </div>
             </div>
             
         </main>
-        <footer class="r_m" style="background: #F8F9FA;">c</footer>
+        <footer  style="background: #F8F9FA;">
+            <div class="container text-dark a_tbdr">Footer</div>
+         </footer>
     </div>
 
 
